@@ -1,0 +1,33 @@
+name: EuroJobs.ai
+slug: eurojobs-ai
+url: https://eurojobs.ai
+
+countries: [AT, BE, CH, CZ, DE, DK, ES, FI, FR, GB, HR, HU, IE, IT, NL, "NO", PL, PT, RO, SE, SK, UA]
+languages: [en]
+focus: aggregator
+
+access_type: scrape
+requires_auth: false
+
+kitsuno_status: wishlist
+license_posture: neutral
+terms_url: https://eurojobs.ai/terms
+update_frequency: hourly
+estimated_volume: 28000
+
+notes: |
+  Aggregates IT roles directly from 21,000 employers' own career pages
+  (Greenhouse, Lever, Ashby, Workable, and others) across Europe.
+  No public API; listings are served as HTML only. The search page at
+  /jobs supports country, remote, visa-sponsorship, and English-speaking-team
+  filters as URL query parameters.
+
+  Updated every hour; stale roles are removed promptly. All listings link
+  directly to the employer's own apply page (no apply-on-site flow).
+  Roughly 28,000 active IT roles as of Nov 2026. English-language site
+  regardless of job location. No authentication required to browse.
+
+last_verified: 2026-11-24
+
+operator: EuroJobs.ai
+headquartered_in:
